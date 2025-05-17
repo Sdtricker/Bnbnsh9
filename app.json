@@ -1,0 +1,66 @@
+{
+
+    "name": "Rishu Music",
+
+    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
+
+    "logo": "https://telegra.ph/Aviax-02-24",
+
+    "keywords": [
+
+    "python3",
+
+    "telegram",
+
+    "bot",
+
+
+    "telegram-bot",
+
+    "pyrogram"
+
+    ],
+
+    "env": {
+
+
+
+      "BOT_TOKEN": {
+
+        "description": "A Bot's token from Botfather",
+
+        "value": "",
+
+        "required": true
+
+      },
+
+  
+
+    },
+
+    "buildpacks": [
+
+          {
+
+              "url": "heroku/python"
+
+          },
+
+          {
+
+              "url": "heroku/nodejs"
+
+          },
+
+          {
+
+              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+
+          }
+
+      ],
+
+      "stack": "container"
+
+}
